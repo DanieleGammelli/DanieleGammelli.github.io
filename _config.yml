@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Daniele Gammelli"
   avatar           : "profile.png"
-  bio              : "Engineer with a passion for learning-theory, mathematics, statistics and computer science. Firmly convinced of the existence of few “underlying principles of intelligence”. Enthusiast about exploring learning algorithms in the advancement towards AI."
+  bio              : "PhD Student in Machine Learning and Mathematical Optimization @Technical University of Denmark"
   location         : "Copenhagen, Denmark"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=C9ZbB3cAAAAJ&hl=en"
-  email            :
+  email            : "daga@dtu.dk"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
