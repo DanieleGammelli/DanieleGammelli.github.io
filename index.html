@@ -341,6 +341,41 @@
           </td>
         </tr>
 
+        <tr  onmouseout="mogp_start()" onmouseover="mogp_start()">
+          <td width="25%">
+            <div class="one">
+            <div class="two" id = 'mogp_image'><img src='resources/mogp.png' width="160" height="160"></div>
+            <img src='resources/mogp.png' width="160" height="160" style="z-index:-1">
+            </div>
+            <script type="text/javascript">
+            function mogp_start() {
+            document.getElementById('mogp_image').style.opacity = "1";
+            }
+            function mogp_stop() {
+            document.getElementById('mogp_image').style.opacity = "0";
+            }
+            // spirl_stop()
+            </script>
+          </td>
+          <td width="75%" valign="top">
+          <p>
+          <p>
+            <a target="_blank" href="https://www.sciencedirect.com/science/article/abs/pii/S0031320322002321">
+            <papertitle>Generalized Multi-Output Gaussian Process Censored Regression</papertitle>
+            </a>
+            <br>
+            <strong>Daniele Gammelli</strong>, <a target="_blank" href="https://web.stanford.edu/~jh2/">Kasper Pryds Rolsted</a>, <a target="_blank" href="https://orbit.dtu.dk/en/persons/dario-pacino">Dario Pacino</a>, <a target="_blank" href="https://fprodrigues.com/">Filipe Rodrigues</a><br>
+            <i>Pattern Recognition</i>, 2022<br>
+            <a target="_blank" href ="https://arxiv.org/abs/2009.04822">arXiv</a>  / 
+            <a target="_blank" href ="https://github.com/DanieleGammelli/multi-output-gp-censored-regression">code</a>
+            <br>
+          </p>
+          <p> We propose a novel extension to the multi-output Gaussian process framework that leverages information from multiple correlated outputs to address the censoring problem. We further position the proposed model into a general framework capable of dealing with arbitrary likelihood functions for the purpose of censored modelling.</p>
+          <p>
+          </p>
+          </td>
+        </tr>
+
         <tr  onmouseout="grl_amod_start()" onmouseover="grl_amod_start()">
           <td width="25%">
             <div class="one">
@@ -366,7 +401,7 @@
             <br>
             <strong>Daniele Gammelli</strong>, <a target="_blank" href="https://web.stanford.edu/~jh2/">James Harrison</a>, <a target="_blank" href="https://sites.google.com/view/kaidiyang/">Kaidi Yang</a>, <a target="_blank" href="https://fprodrigues.com/">Filipe Rodrigues</a>, <a target="_blank" href="https://camara.scripts.mit.edu/home/">Francisco C. Pereira</a>, <a target="_blank" href="https://web.stanford.edu/~pavone/">Marco Pavone</a><br>
             <i>Conference on Decision and Control (CDC)</i>, 2021<br>
-            <i>ICML Workshop on RL for Real Life</i>, 2021(<span style="color: #ff0000">Best paper candiate</span>)<br>
+            <i>ICML Workshop on RL for Real Life</i>, 2021 (<span style="color: #ff0000">Best paper candiate</span>)<br>
             <a target="_blank" href ="https://arxiv.org/abs/2104.11434">arXiv</a>  / 
             <a target="_blank" href ="https://github.com/DanieleGammelli/gnn-rl-for-amod">code</a>
             <br>
