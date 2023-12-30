@@ -133,9 +133,9 @@
 	          <p>
 	            <ul>
                 <li> [Dec 2023] Our work on <a target="_blank" href="https://rendezvoustransformer.github.io/">Transformers for trajectory optimization</a> was accepted to IEEE Aerospace Conference! </li> <br>
-                <li> [Sep 2023] New <a target="_blank" href="https://arxiv.org/abs/2311.05780">preprint</a> on Graph Reinforcement Learning for Electric Autonomous Mobility-on-Demand Systems </li> <br>
+                <li> [Sep 2023] New <a target="_blank" href="https://arxiv.org/abs/2311.05780">preprint</a> on Graph Reinforcement Learning for Electric Autonomous Mobility-on-Demand Systems. </li> <br>
 	             <li> [Apr 2023] Our <a target="_blank" href="https://arxiv.org/abs/2305.09129">work</a> on reinforcement learning for network optimization will be presented at ICML 2023! </li> <br>
-                <li> [Apr 2023] Our course on <a target="_blank" href="https://stanfordasl.github.io//aa203/sp2223/">Optimal and Learning-based Control</a> starts! </li> <br>
+                <li> [Apr 2023] Our course on <a target="_blank" href="https://stanfordasl.github.io//aa203/sp2223/">Optimal and Learning-based Control</a> at Stanford begins! Check the course webpage for all course material. </li> <br>
             </p>
           </td>
         </tr>
@@ -144,9 +144,20 @@
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
           <tr>
             <td width="100%" valign="middle">
+              <heading>Teaching</heading>
+              <p>
+                <a target="_blank" href="https://stanfordasl.github.io//aa203/sp2223/">Stanford AA203: Optimal and Learning-based Control</a> - Spring 2023
+              </p>
+            </td>
+          </tr>
+          </table>
+
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td width="100%" valign="middle">
               <heading>Research</heading>
               <p>
-                I'm interested in machine learning, reinforcement learning, and optimal control in robotics. My current research focuses on developing methodologies for the analysis and control of autonomous systems. Towards this goal, I explore approaches that leverage the benefits of both learning-based and optimization-based approaches.
+                I am interested in the capability of autonomous agents to develop broadly intelligent behavior through learning and interaction, aiming for a reliable and beneficial deployment of AI in the real world. Towards this goal, I focus on machine learning, reinforcement learning, and optimal control for decision-making.
               </p>
             </td>
           </tr>
@@ -154,18 +165,18 @@
 
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
 
-        <tr  onmouseout="octo_start()" onmouseover="octo_start()">
+        <tr  onmouseout="art_start()" onmouseover="art_start()">
           <td width="25%">
             <div class="one">
-            <div class="two" id = 'octo_image'><img src='resources/octo.gif' width="160" height="100"></div>
-            <img src='resources/octo.jpeg' width="160" height="100" style="z-index:-1">
+            <div class="two" id = 'art_image'><img src='resources/art.gif' width="160" height="100"></div>
+            <img src='resources/art.png' width="160" height="100" style="z-index:-1">
             </div>
             <script type="text/javascript">
-            function octo_start() {
-            document.getElementById('octo_image').style.opacity = "1";
+            function arto_start() {
+            document.getElementById('art_image').style.opacity = "1";
             }
-            function octo_stop() {
-            document.getElementById('octo_image').style.opacity = "0";
+            function arto_stop() {
+            document.getElementById('art_image').style.opacity = "0";
             }
             // spirl_stop()
             </script>
@@ -173,17 +184,17 @@
           <td width="75%" valign="top">
           <p>
           <p>
-            <a target="_blank" href="https://octo-models.github.io/">
-            <papertitle>Octo: An Open-Source Generalist Robot Policy</papertitle>
+            <a target="_blank" href="https://rendezvoustransformer.github.io/">
+            <papertitle>Transformers for Trajectory Optimization with Application to Spacecraft Rendezvous/papertitle>
             </a>
             <br>
-            <a target="_blank" href="https://dibyaghosh.com/">Dibya Ghosh</a>*, <a target="_blank" href="https://homerwalke.com/">Homer Walke</a>*, <strong>Karl Pertsch</strong>*, <a target="_blank" href="https://kevin.black/">Kevin Black</a>*, <a target="_blank" href="https://www.oiermees.com/">Oier Mees</a>*, ..., <a target="_blank" href="https://dorsa.fyi/">Dorsa Sadigh</a>, <a target="_blank" href="https://ai.stanford.edu/~cbfinn/">Chelsea Finn</a>, <a target="_blank" href="https://people.eecs.berkeley.edu/~svlevine/">Sergey Levine</a><br>
-            <i>ArXiV</i>, 2023<br>
-            <a target="_blank" href ="https://octo-models.github.io/">project page</a> / <a target="_blank" href ="https://octo-models.github.io/paper.pdf">tech report</a>  / 
-            <a target="_blank" href ="https://github.com/octo-models/octo">code</a>
+            <a target="_blank" href="https://slab.stanford.edu/people/tommaso-guffanti">Tommaso Guffanti</a>*, <strong>Daniele Gammelli</strong>*, , <a target="_blank" href="https://slab.stanford.edu/people/simone-damico">Simone D'Amico</a>, <a target="_blank" href="https://web.stanford.edu/~pavone/">Marco Pavone</a><br>
+            <i>IEEE Aerospace Conference</i>, 2024<br>
+            <a target="_blank" href ="https://rendezvoustransformer.github.io/">project page</a> / <a target="_blank" href ="https://arxiv.org/abs/2310.13831">arXiv</a>  / 
+            <a target="_blank" href ="https://github.com/Stanford-CAESAR">code</a>
             <br>
           </p>
-          <p> We introduce Octo, an open-source generalist policy, trained on 800k robot trajectories. Octo is a large, transformer-based diffusion policy that supports flexible task specification, observation and action spaces. It can control a diverse range of robots out of the box and supports efficient finetuning to new robot configurations. We release pre-trained checkpoints and our full training + finetuning pipelines.</p>
+          <p> We introduce the Autonomous Rendezvous Transformer (ART) for spacecraft trajectory optimization. ART combines optimization-based and AI-based methods, which improves task performance while providing the safety assurances needed for space operations. The method entails embedding high-capacity (namely, transformer-based) neural network models within the optimization process for trajectory generation.</p>
           <p>
           </p>
           </td>
